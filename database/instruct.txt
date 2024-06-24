@@ -1,0 +1,10 @@
+===== HƯỚNG DẪN SỬ DỤNG =====
+B1: Đưa project vào thư mục htdoc trong xampp
+B2: Mở xampp (mở Apache và Mysql)
+B3: Trong Mysql import file "sell_technology.sql" vào.
+B4: Trong Apache chọn project "sell_technology".
+
+===== ACCOUNT =====
+Admin: 
+- Email: trungem2002@gmail.com
+- Password: Admin123@

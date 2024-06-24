@@ -1,0 +1,144 @@
+@font-face {
+    font-family: 'Mulish';
+    src: url('Muli/Mulish-BlackItalic.woff2') format('woff2'),
+        url('Muli/Mulish-BlackItalic.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('Muli/Mulish-ExtraBoldItalic.woff2') format('woff2'),
+        url('Muli/Mulish-ExtraBoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('Muli/Mulish-BoldItalic.woff2') format('woff2'),
+        url('Muli/Mulish-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('Muli/Mulish-Black.woff2') format('woff2'),
+        url('Muli/Mulish-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('Muli/Mulish-MediumItalic.woff2') format('woff2'),
+        url('Muli/Mulish-MediumItalic.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('Muli/Mulish-Italic.woff2') format('woff2'),
+        url('Muli/Mulish-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('Muli/Mulish-Bold.woff2') format('woff2'),
+        url('Muli/Mulish-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('Muli/Mulish-SemiBoldItalic.woff2') format('woff2'),
+        url('Muli/Mulish-SemiBoldItalic.woff') format('woff');
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('Muli/Mulish-LightItalic.woff2') format('woff2'),
+        url('Muli/Mulish-LightItalic.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('Muli/Mulish-Regular.woff2') format('woff2'),
+        url('Muli/Mulish-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('Muli/Mulish-ExtraBold.woff2') format('woff2'),
+        url('Muli/Mulish-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('Muli/Mulish-Medium.woff2') format('woff2'),
+        url('Muli/Mulish-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('Muli/Mulish-ExtraLightItalic.woff2') format('woff2'),
+        url('Muli/Mulish-ExtraLightItalic.woff') format('woff');
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('Muli/Mulish-Light.woff2') format('woff2'),
+        url('Muli/Mulish-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('Muli/Mulish-ExtraLight.woff2') format('woff2'),
+        url('Muli/Mulish-ExtraLight.woff') format('woff');
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Mulish';
+    src: url('Muli/Mulish-SemiBold.woff2') format('woff2'),
+        url('Muli/Mulish-SemiBold.woff') format('woff');
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+

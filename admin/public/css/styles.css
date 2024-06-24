@@ -1,0 +1,122 @@
+/*****************
+*     Login      *
+******************/
+
+.authincation {
+    background: var(--rgba-primary-1);
+    background-image: linear-gradient(rgba(0,0,0,.2),rgba(0,0,0,.2)), url(../imgs/background-logo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    min-height: 100vh;
+}
+
+    .authincation .login-aside {
+        background: #fff;
+        padding-top: 80px;
+        max-width: 560px;
+        width: 100%;
+        z-index: 1;
+        position: relative;
+    }
+
+    .authincation .login-aside:after {
+        content: "";
+        clip-path: polygon(0% 100%, 100% 0%, 0% 0%);
+        width: 140px;
+        height: 100%;
+        position: absolute;
+        right: -140px;
+        z-index: -1;
+        top: 0;
+        background: #fff;
+        box-shadow: 2px 0px 30px rgba(0, 0, 0, 0.15);
+    }
+
+        .authincation .login-aside .aside-image {
+            min-height: 450px;
+            margin: auto 0;
+            min-width: 0;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+    @media only screen and (max-width: 1400px) {
+        .authincation .login-aside {
+            max-width: 360px;
+        }
+    }
+
+    @media only screen and (max-width: 991px) {
+        .authincation .login-aside {
+            max-width: 100%;
+            padding-top: 0;
+        }
+
+        .authincation .login-aside:after {
+            content: none;
+        }
+    }
+
+        @media only screen and (max-width: 575px) {
+            .authincation .login-aside .aside-image {
+                min-height: 300px;
+            }
+        }
+
+.authincation-content {
+    background: #fff;
+    box-shadow: 0 0 35px 0 rgba(154, 161, 171, 0.15);
+    border-radius: 5px;
+}
+
+    [data-theme-version="dark"] .authincation-content {
+        background: #212130;
+        box-shadow: none;
+    }
+
+    .authincation-content.style-1 {
+        background: rgba(255, 255, 255, 0.5);
+        backdrop-filter: blur(20px);
+    }
+
+        .authincation-content.style-1 .form-control {
+            background: rgba(255, 255, 255, 0.6);
+            border-radius: 5px;
+        }
+
+        .authincation-content.style-1 .user-icon {
+            height: 100px;
+            background: var(--primary);
+            width: 100px;
+            text-align: center;
+            border-radius: 100px;
+            line-height: 100px;
+            margin-left: auto;
+            font-size: 60px;
+            text-align: center;
+            color: white;
+            margin-right: auto;
+            margin-top: -100px;
+            margin-bottom: 20px;
+        }
+
+    .authincation-content.style-2 {
+        background: transparent;
+        box-shadow: none;
+        max-width: 530px;
+        width: 100%;
+    }
+
+        .authincation-content.style-2 .form-control {
+            border: 0;
+            border-radius: 5px;
+            box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.08);
+        }
+
+        @media only screen and (max-width: 575px) {
+            .authincation-content.style-2 .auth-form {
+                padding: 30px 0px;
+            }
+        }
